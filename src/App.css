@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Bellota Text', cursive;
+  color: #333;
+}
+
+.navbar{
+  /*background-color: rgb(244, 241, 241);*/
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+
+.navbar h1 {
+  color: #0469FF;
+}
+
+.navbar .links {
+  margin-left: 25%;
+  align-items: center;
+  max-width: 500px;
+
+}
+
+.navbar a {
+  font-weight: bold;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  transform: translateY(-0.25em);
+  transition-timing-function: 5s;
+}
+
+
+/* About page CSS */
+.aboutPage {
+  margin: 5em;
+}
+.intro {
+  text-align: center;
+}
