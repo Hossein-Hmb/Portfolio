@@ -41,7 +41,25 @@
   transition-timing-function: 5s;
 }
 
+/* Home page CSS */
+.homePage {
+  margin: 5em;
+}
 
+.introHome {
+  text-align: left;
+}
+
+.buttons {
+  margin-top: 2em;
+}
+
+.homeBtn {
+  background-color: #0469FF;
+  color: antiquewhite;
+  font-size: x-large;
+  
+}
 /* About page CSS */
 .aboutPage {
   margin: 5em;
