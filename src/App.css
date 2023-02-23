@@ -8,10 +8,12 @@
   color: #333;
 }
 
+/* Navbar CSS */
 .navbar{
   /*background-color: rgb(244, 241, 241);*/
   padding: 15px;
   display: flex;
+  justify-content: center;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
@@ -20,50 +22,17 @@
 
 .navbar h1 {
   color: #0469FF;
-}
-
-.navbar .links {
-  margin-left: 25%;
-  align-items: center;
-  max-width: 500px;
-
-}
-
-.navbar a {
-  font-weight: bold;
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-
-.navbar a:hover {
-  transform: translateY(-0.25em);
-  transition-timing-function: 5s;
+  font-size: 40px;
 }
 
 /* Home page CSS */
+
+
+
 .homePage {
   margin: 5em;
 }
 
 .introHome {
   text-align: left;
-}
-
-.buttons {
-  margin-top: 2em;
-}
-
-.homeBtn {
-  background-color: #0469FF;
-  color: antiquewhite;
-  font-size: x-large;
-  
-}
-/* About page CSS */
-.aboutPage {
-  margin: 5em;
-}
-.intro {
-  text-align: center;
 }
