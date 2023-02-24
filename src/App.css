@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap");
 
 /* base styles */
 * {
   margin: 0;
-  font-family: 'Bellota Text', cursive;
+  font-family: "Bellota Text", cursive;
   color: #333;
 }
 
 /* Navbar CSS */
-.navbar{
+.navbar {
   /*background-color: rgb(244, 241, 241);*/
   padding: 15px;
   display: flex;
@@ -21,16 +20,15 @@
 }
 
 .navbar h1 {
-  color: #0469FF;
+  color: #0469ff;
   font-size: 40px;
 }
 
 /* Home page CSS */
 
-
-
 .homePage {
-  margin: 5em;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .introHome {
