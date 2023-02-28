@@ -1,0 +1,16 @@
+/* Navbar CSS */
+.navbar {
+  /*background-color: rgb(244, 241, 241);*/
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+
+.navbar h1 {
+  color: #0469ff;
+  font-size: 40px;
+}

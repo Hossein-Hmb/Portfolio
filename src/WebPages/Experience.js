@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div className="section__header">
-      <h1>Experience</h1>
+      <h1 className="header">Experience</h1>
     </div>
   );
 };

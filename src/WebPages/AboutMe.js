@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <div className="AboutMe">
       <div className="section__header">
-        <h1>AboutMe</h1>
+        <h1 className="header">About Me</h1>
       </div>
       <div className="aboutme__text">
         <p>

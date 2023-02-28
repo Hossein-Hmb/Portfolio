@@ -1,0 +1,82 @@
+/* Intro Section CSS */
+.Intro {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 55px;
+  margin-top: 0.5em;
+}
+
+.hosseinImg {
+  border-radius: 75px;
+  width: 450px;
+  height: 600px;
+  margin-left: 64px;
+}
+
+.textBtn {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+.githubBtn {
+  background-color: white;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #0469ff;
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+.githubBtn:hover {
+  background-color: #0469ff;
+  color: white;
+  transition: 0.5s;
+}
+
+.linkedinBtn {
+  background-color: white;
+  margin: 1em;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: #0469ff;
+  height: 50px;
+  width: 140px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.linkedinBtn:hover {
+  background-color: #0469ff;
+  color: white;
+  transition: 0.5s;
+}
+
+.resumeBtn {
+  background-color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: #0469ff;
+  height: 50px;
+  width: 130px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.resumeBtn:hover {
+  background-color: #0469ff;
+  color: white;
+  transition: 0.5s;
+}
