@@ -1,25 +1,36 @@
 /* Intro Section CSS */
 .Intro {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  /*display: grid;
+  grid-template-columns: 50% 50%;*/
   font-size: 55px;
-  margin-top: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+.image {
+  width: max-content;
+}
 .hosseinImg {
-  border-radius: 75px;
-  width: 450px;
-  height: 600px;
+  border-radius: 0px;
+  width: 350px;
+  height: 450px;
   margin-left: 64px;
 }
 
 .textBtn {
+  justify-content: center;
   display: grid;
   grid-template-rows: auto;
+  width: max-content;
 }
 
+/* buttons CSS */
 .buttons {
+  display: flex;
+  justify-content: center;
   margin-top: 1em;
 }
 .githubBtn {
@@ -38,8 +49,11 @@
 }
 
 .githubBtn:hover {
-  background-color: #0469ff;
-  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(14, 127, 221, 1) 0%,
+    rgba(0, 221, 255, 1) 100%
+  );
   transition: 0.5s;
 }
 

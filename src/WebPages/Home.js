@@ -8,21 +8,11 @@ const Home = () => {
   return (
     <div className="homePage">
       <div className="components">
-        <div className="Intro"/>
-          <Intro/>
-        <div/>
-        <div className="AboutMe"/>
-          <AboutMe/>
-        <div/>
-        <div className="Skills"/>
-          <Skills/>
-        <div/>
-        <div className="Experience"/>
-          <Experience/>
-        <div/>
-        <div className="PersonalWork"/>
-          <PersonalWork/>
-        <div/>
+        <Intro />
+        <AboutMe />
+        <Skills />
+        <Experience />
+        <PersonalWork />
       </div>
     </div>
   );

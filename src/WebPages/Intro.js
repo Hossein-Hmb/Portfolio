@@ -30,7 +30,6 @@ const Intro = () => {
             }}>
             LinkedIn
           </button>
-
           <a href={Resume} className="pdfDownload" download="Resume">
             <button className="resumeBtn">Resume</button>
           </a>

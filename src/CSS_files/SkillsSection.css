@@ -1,0 +1,63 @@
+.skillsContent {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
+.skilldiv {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 1em;
+  margin: 1em;
+  border-radius: 10px;
+  /* From https://css.glass */
+  background: rgb(252, 252, 252, 0.254);
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 14%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* function skill info CSS */
+.progressbardiv {
+  display: flex;
+  justify-content: center;
+}
+.progressBar {
+  width: 100px;
+  height: 10px;
+  border-radius: 25px;
+  border: 01px solid black;
+}
+
+.progressLine {
+  width: 40%;
+  border-radius: 25px;
+  height: 10px;
+  background: rgb(14, 127, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 127, 221, 1) 0%,
+    rgba(0, 221, 255, 1) 100%
+  );
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0.5em;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.level {
+  text-align: center;
+  margin-bottom: 10px;
+}

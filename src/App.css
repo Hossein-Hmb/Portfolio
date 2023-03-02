@@ -4,12 +4,12 @@
 * {
   margin: 0;
   font-family: "Bellota Text", cursive;
-  color: #333;
+  color: white;
 }
 
 /* Section Headers CSS */
 .section__header {
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 5px solid #000000;
 }
 

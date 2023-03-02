@@ -2,5 +2,5 @@
 .components {
   display: grid;
   grid-auto-rows: auto;
-  grid-gap: 2em;
+  grid-gap: 1em;
 }
