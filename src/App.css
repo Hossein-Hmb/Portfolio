@@ -1,18 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 /* base styles */
 * {
   margin: 0;
-  font-family: "Bellota Text", cursive;
-  color: white;
 }
 
 /* Section Headers CSS */
 .section__header {
   font-size: 25px;
   border-bottom: 5px solid #000000;
+
+  font-family: "Bellota Text", cursive;
 }
 
 .header {
   margin-left: 3em;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #58a5ba; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }

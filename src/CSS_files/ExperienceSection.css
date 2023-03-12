@@ -19,6 +19,7 @@
 }
 
 .jobInfo {
+  font-family: "Bellota Text", cursive;
   margin: 1.5em;
   width: fit-content;
   height: fit-content;
@@ -40,4 +41,5 @@
   margin: 1em;
   font-size: 25px;
   text-align: justify;
+  font-family: "Montserrat", "sans-serif";
 }

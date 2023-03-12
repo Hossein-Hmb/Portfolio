@@ -13,6 +13,12 @@ import Home from "./WebPages/Home.js";
 function App() {
   return (
     <Router>
+      <div className="alert">
+        <span>
+          Hi, please keep in mind that this website is still under construction.
+          Thank you!
+        </span>
+      </div>
       <div className="App">
         <Navbar />
         <div className="content">

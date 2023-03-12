@@ -8,6 +8,7 @@
   font-size: 55px;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-family: "Montserrat", "sans-serif";
 }
 
 .image {
@@ -29,57 +30,41 @@
 
 /* buttons CSS */
 .buttons {
-  display: flex;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   justify-content: center;
   margin-top: 1em;
-}
-.githubBtn {
-  background-color: white;
-  margin-right: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-radius: 10px;
-  border-width: 2px;
-  border-color: #0469ff;
-  height: 50px;
-  width: 120px;
-  font-size: 25px;
-  font-weight: bold;
-  box-shadow: none;
+  grid-gap: 0.1em;
+  align-items: center;
 }
 
-.githubBtn:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(14, 127, 221, 1) 0%,
-    rgba(0, 221, 255, 1) 100%
-  );
-  transition: 0.5s;
-}
-
-.linkedinBtn {
-  background-color: white;
-  margin: 1em;
-  border-radius: 10px;
-  border-width: 4px;
-  border-color: #0469ff;
-  height: 50px;
-  width: 140px;
+a {
+  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
   font-size: 25px;
   font-weight: bold;
 }
 
-.linkedinBtn:hover {
-  background-color: #0469ff;
-  color: white;
-  transition: 0.5s;
+a:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: 8px;
+  height: 3px;
+}
+
+a:hover {
+  background-position: 0;
+  width: 100%;
 }
 
 .resumeBtn {
   background-color: white;
-  margin-left: 1em;
-  margin-top: 1em;
-  margin-bottom: 1em;
   border-radius: 10px;
   border-width: 4px;
   border-color: #0469ff;

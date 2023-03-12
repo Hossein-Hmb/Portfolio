@@ -5,6 +5,8 @@ import {
   SiJavascript,
   SiGit,
   SiFigma,
+  SiPython,
+  SiJava,
 } from "react-icons/si";
 import { IconContext } from "react-icons";
 
@@ -35,7 +37,7 @@ const Skills = () => {
   }
 
   return (
-    <div className="Skills">
+    <div className="Skills" style={{ color: "white" }}>
       <div className="section__header">
         <h1 className="header">Skills</h1>
       </div>
@@ -44,7 +46,11 @@ const Skills = () => {
         {skillInfo("CSS", <SiCss3 />, "Intermediate")}
         {skillInfo("JavaScript", <SiJavascript />, "Beginner")}
         {skillInfo("React.JS", <SiReact />, "Beginner")}
+      </div>
+      <div className="skillsContent">
         {skillInfo("Git", <SiGit />, "Beginner")}
+        {skillInfo("Java", <SiJava />, "Beginner")}
+        {skillInfo("Python", <SiPython />, "Beginner")}
         {skillInfo("Figma", <SiFigma />, "Beginner")}
       </div>
     </div>

@@ -16,22 +16,21 @@ const Intro = () => {
           </span>
         </div>
         <div className="buttons">
-          <button
-            className="githubBtn btn btn-default"
+          <a
             onClick={() => {
               openLink("https://github.com/Hossein-Hmb");
             }}>
             Github
-          </button>
-          <button
-            className="linkedinBtn btn btn-default"
+          </a>
+
+          <a
             onClick={() => {
               openLink("https://www.linkedin.com/in/hossein-hajmirbaba");
             }}>
             LinkedIn
-          </button>
+          </a>
           <a href={Resume} className="pdfDownload" download="Resume">
-            <button className="resumeBtn">Resume</button>
+            Resume
           </a>
         </div>
       </div>
