@@ -43,3 +43,20 @@
   text-align: justify;
   font-family: "Montserrat", "sans-serif";
 }
+
+@media screen and (max-width: 600px) {
+  .CRAdiv {
+    grid-template-columns: 100%;
+    margin: 1em;
+    width: 100%;
+  }
+  .jobInfo {
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .jobInfo {
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+}

@@ -79,3 +79,47 @@ a:hover {
   color: white;
   transition: 0.5s;
 }
+
+@media only screen and (max-width: 600px) {
+  .Intro {
+    font-size: 40px;
+    display: grid;
+    grid-auto-rows: 50% 50%;
+  }
+  .hosseinImg {
+    width: 250px;
+    height: 350px;
+  }
+  .buttons {
+    grid-template-columns: 33% 33% 33%;
+  }
+  .resumeBtn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Intro {
+    font-size: 30px;
+  }
+  .hosseinImg {
+    width: 200px;
+    height: 300px;
+  }
+  .buttons {
+    grid-template-columns: 33% 33% 33%;
+  }
+  .resumeBtn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .a {
+    font-size: 20px;
+  }
+}

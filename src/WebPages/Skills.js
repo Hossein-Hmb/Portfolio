@@ -10,6 +10,7 @@ import {
 } from "react-icons/si";
 import { IconContext } from "react-icons";
 
+//Arrow function to make a skill card
 const Skills = () => {
   function skillInfo(title, icon, level) {
     return (
@@ -28,6 +29,7 @@ const Skills = () => {
     );
   }
 
+  //Fucntion to give a value to icons
   function Icons(value) {
     return (
       <IconContext.Provider value={{ size: "70px" }}>
@@ -37,17 +39,15 @@ const Skills = () => {
   }
 
   return (
-    <div className="Skills" style={{ color: "white" }}>
+    <div className="Skills">
       <div className="section__header">
         <h1 className="header">Skills</h1>
       </div>
       <div className="skillsContent">
         {skillInfo("HTML", <SiHtml5 />, "Intermediate")}
         {skillInfo("CSS", <SiCss3 />, "Intermediate")}
-        {skillInfo("JavaScript", <SiJavascript />, "Beginner")}
-        {skillInfo("React.JS", <SiReact />, "Beginner")}
-      </div>
-      <div className="skillsContent">
+        {skillInfo("JS", <SiJavascript />, "Beginner")}
+        {skillInfo("React", <SiReact />, "Beginner")}
         {skillInfo("Git", <SiGit />, "Beginner")}
         {skillInfo("Java", <SiJava />, "Beginner")}
         {skillInfo("Python", <SiPython />, "Beginner")}
