@@ -68,4 +68,22 @@
   .jobParagraph {
     font-size: 20px;
   }
+  .jobCompany {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .CRAdiv {
+    grid-template-columns: 100%;
+    margin: 1em;
+    width: 100%;
+  }
+  .jobInfo {
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .jobCompany {
+    font-size: 25px;
+  }
 }
