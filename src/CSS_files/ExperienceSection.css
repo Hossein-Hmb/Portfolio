@@ -44,7 +44,7 @@
   font-family: "Montserrat", "sans-serif";
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1176px) and (min-width: 600px) {
   .CRAdiv {
     grid-template-columns: 100%;
     margin: 1em;
@@ -55,8 +55,17 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 599px) {
+  .CRAdiv {
+    grid-template-columns: 100%;
+    margin: 1em;
+    width: 100%;
+  }
   .jobInfo {
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .jobParagraph {
+    font-size: 20px;
   }
 }

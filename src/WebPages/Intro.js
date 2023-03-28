@@ -17,19 +17,20 @@ const Intro = () => {
         </div>
         <div className="buttons">
           <a
+            className="link"
             onClick={() => {
               openLink("https://github.com/Hossein-Hmb");
             }}>
             Github
           </a>
-
           <a
+            className="link"
             onClick={() => {
               openLink("https://www.linkedin.com/in/hossein-hajmirbaba");
             }}>
             LinkedIn
           </a>
-          <a href={Resume} className="pdfDownload" download="Resume">
+          <a href={Resume} className="link" download="Resume">
             Resume
           </a>
         </div>

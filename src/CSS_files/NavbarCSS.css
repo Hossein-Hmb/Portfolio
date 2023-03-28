@@ -14,3 +14,15 @@
   color: #0469ff;
   font-size: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar h1 {
+    font-size: 30px;
+  }
+}

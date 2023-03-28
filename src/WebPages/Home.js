@@ -2,7 +2,7 @@ import Intro from "./Intro.js";
 import AboutMe from "./AboutMe.js";
 import Skills from "./Skills.js";
 import Experience from "./Experience.js";
-import PersonalWork from "./PersonalWork.js";
+import Projects from "./Projects.js";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <AboutMe />
         <Skills />
         <Experience />
-        <PersonalWork />
+        <Projects />
       </div>
     </div>
   );

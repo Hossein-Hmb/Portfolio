@@ -46,8 +46,8 @@ const Skills = () => {
       <div className="skillsContent">
         {skillInfo("HTML", <SiHtml5 />, "Intermediate")}
         {skillInfo("CSS", <SiCss3 />, "Intermediate")}
-        {skillInfo("JS", <SiJavascript />, "Beginner")}
-        {skillInfo("React", <SiReact />, "Beginner")}
+        {skillInfo("JavaScript", <SiJavascript />, "Beginner")}
+        {skillInfo("React.js", <SiReact />, "Beginner")}
         {skillInfo("Git", <SiGit />, "Beginner")}
         {skillInfo("Java", <SiJava />, "Beginner")}
         {skillInfo("Python", <SiPython />, "Beginner")}
