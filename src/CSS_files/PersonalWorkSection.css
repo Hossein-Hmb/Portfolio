@@ -1,3 +1,4 @@
+/* Personal Work Section CSS */
 .workCards {
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +18,7 @@
   margin: 1rem;
   padding: 1rem;
   width: 15rem;
-  height: 16rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,7 +32,7 @@
 }
 
 .card img {
-  width: 170px;
+  width: 237px;
   height: 130px;
   border-radius: 15px;
   object-fit: cover;
@@ -42,6 +43,7 @@
   margin: 1rem 0;
 }
 
+.card-text,
 .card p {
   font-size: 1rem;
   text-align: center;
@@ -63,12 +65,4 @@
 
 .card-body a:hover {
   color: #0469ff;
-}
-
-.card-text {
-  font-size: 1rem;
-  text-align: center;
-}
-
-@media screen and (max-width: 800px) {
 }

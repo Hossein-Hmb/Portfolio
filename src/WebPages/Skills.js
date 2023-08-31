@@ -39,7 +39,7 @@ const Skills = () => {
   }
 
   return (
-    <div className="Skills">
+    <div className="sectionAnim Skills">
       <div className="section__header">
         <h1 className="header">Skills</h1>
       </div>

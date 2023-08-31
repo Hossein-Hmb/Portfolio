@@ -9,12 +9,13 @@ import PersonalWorkSection from "./CSS_files/PersonalWorkSection.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar/Navbar.js";
 import Home from "./WebPages/Home.js";
+import Footer from "./WebPages/Footer";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Footer />
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />

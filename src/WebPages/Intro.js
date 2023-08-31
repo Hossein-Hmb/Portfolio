@@ -1,42 +1,24 @@
-import hossein_img from "../images/lprofilepic.jpeg";
-import Resume from "../images/Professional_Resume.pdf";
+import h_img from "../images/profile-pic.png";
+
 const Intro = () => {
   function openLink(link) {
     window.open(link, "_blank");
   }
 
   return (
-    <div className="Intro">
+    <div className="sectionAnim Intro">
+      <div className="backgroundGradient"></div>
       <div className="textBtn">
         <div className="text">
           <span className="introHome">
-            Hi, I'm Hossein. <br /> I'm a
-            <span style={{ color: "#0469FF" }}> software engineer </span> <br />
-            student in Ottawa.
+            Hi, <span className="name">I'm Hossein.</span> <br />
+            I'm a <span className="role">software engineer</span> <br />
+            student in <span className="location">Ottawa.</span>
           </span>
-        </div>
-        <div className="buttons">
-          <a
-            className="link"
-            onClick={() => {
-              openLink("https://github.com/Hossein-Hmb");
-            }}>
-            Github
-          </a>
-          <a
-            className="link"
-            onClick={() => {
-              openLink("https://www.linkedin.com/in/hossein-hajmirbaba");
-            }}>
-            LinkedIn
-          </a>
-          <a href={Resume} className="link" download="Resume">
-            Resume
-          </a>
         </div>
       </div>
       <div className="image">
-        <img src={hossein_img} alt="Hossein's img" className="hosseinImg" />
+        <img src={h_img} alt="Hossein's img" className="hosseinImg" />
       </div>
     </div>
   );

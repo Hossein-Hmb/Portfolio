@@ -1,129 +1,117 @@
 /* Intro Section CSS */
 .Intro {
+  position: relative;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  /*display: grid;
-  grid-template-columns: 50% 50%;*/
   font-size: 55px;
   margin-top: 1em;
   margin-bottom: 1em;
   font-family: "Montserrat", "sans-serif";
+  overflow: hidden;
 }
+
+/* .backgroundGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #e3e3e3, #ffffff);
+  z-index: -1;
+} */
 
 .image {
   width: max-content;
+  margin-bottom: 1em;
 }
+
 .hosseinImg {
-  border-radius: 0px;
+  border-radius: 50%;
   width: 350px;
-  height: 450px;
-  margin-left: 64px;
+  height: 350px;
+  transition: all 0.5s ease-in-out;
+}
+
+.hosseinImg:hover {
+  transform: scale(1.1);
 }
 
 .textBtn {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: grid;
-  grid-template-rows: auto;
+  align-items: center;
   width: max-content;
 }
 
-/* buttons CSS */
-.buttons {
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  justify-content: center;
-  margin-top: 1em;
-  grid-gap: 0.1em;
-  align-items: center;
-}
-
-.link {
-  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-  font-size: 25px;
+.text .name {
+  color: #0469ff;
   font-weight: bold;
 }
 
-.link:before {
-  content: "";
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: 8px;
-  height: 3px;
+.text .role {
+  color: #0469ff;
 }
 
-.link:hover {
-  background-position: 0;
-  width: 100%;
+.text .location {
+  color: #333;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  gap: 0.5em;
+}
+
+.socialBtn,
 .resumeBtn {
   background-color: white;
   border-radius: 10px;
-  border-width: 4px;
-  border-color: #0469ff;
+  border: 2px solid #0469ff;
   height: 50px;
-  width: 130px;
-  font-size: 25px;
-  font-weight: bold;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
+.socialBtn:hover,
 .resumeBtn:hover {
   background-color: #0469ff;
   color: white;
-  transition: 0.5s;
-}
-
-@media only screen and (max-width: 600px) {
-  .Intro {
-    font-size: 40px;
-    display: grid;
-    grid-auto-rows: 50% 50%;
-  }
-  .hosseinImg {
-    width: 250px;
-    height: 350px;
-  }
-  .buttons {
-    grid-template-columns: 33% 33% 33%;
-  }
-  .resumeBtn {
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-  }
-  .a {
-    font-size: 20px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
   .Intro {
     font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     margin-top: 3em;
+  }
+
+  .hosseinImg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .resumeBtn {
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
   }
 
   .text {
     text-align: center;
   }
+
   .image {
-    display: none;
-  }
-  .buttons {
-    grid-template-columns: 33.3% 33.3% 33.3%;
-  }
-  .resumeBtn {
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-  }
-  .a {
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
