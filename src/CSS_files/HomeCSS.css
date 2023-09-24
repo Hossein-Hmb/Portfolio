@@ -2,7 +2,7 @@
 .components {
   display: grid;
   grid-auto-rows: auto;
-  grid-gap: 1em;
+  /* grid-gap: 1em; */
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import portwebimg from "../images/portwebimg.png";
 import AIimg from "../images/AI_img.png";
 import EZHotelimg from "../images/EZHotel_img.png";
+import BlogComponent from "./BlogComponent.js";
 const Projects = () => {
   //function to make a card to display works
   function WorkCard(cardTitle, cardImage, cardText, cardImageText) {
@@ -10,6 +12,7 @@ const Projects = () => {
         <div className="card-body">
           <h5 className="card-title">{cardTitle}</h5>
           <p className="card-text">{cardText}</p>
+          <a href="./BlogComponent.js">More Info</a>
         </div>
       </div>
     );
@@ -17,9 +20,6 @@ const Projects = () => {
 
   return (
     <div className="sectionAnim projects">
-      <div className="section__header">
-        <h1 className="header">Personal Work</h1>
-      </div>
       <div className="workCards">
         {WorkCard(
           "Personal Portfolio",

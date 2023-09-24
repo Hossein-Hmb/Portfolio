@@ -6,11 +6,11 @@ import IntroSection from "./CSS_files/IntroSection.css";
 import NavbarCSS from "./CSS_files/NavbarCSS.css";
 import SkillsSection from "./CSS_files/SkillsSection.css";
 import PersonalWorkSection from "./CSS_files/PersonalWorkSection.css";
+import BlogCSS from "./CSS_files/BlogCSS.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar/Navbar.js";
 import Home from "./WebPages/Home.js";
 import Footer from "./WebPages/Footer";
-
+import BlogPage from "./WebPages/BlogComponent";
 function App() {
   return (
     <Router>
@@ -19,6 +19,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/BlogComponent.js" element={<BlogPage />} />
           </Routes>
         </div>
       </div>

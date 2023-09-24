@@ -1,6 +1,7 @@
 .Skills {
-  background-color: #58a5ba;
+  background-color: #aed6fb;
   color: white;
+  padding: 1em;
 }
 
 .skillsContent {
@@ -51,7 +52,7 @@
   justify-content: center;
 }
 
-.title {
+.skill_title {
   margin-top: 0.5em;
   font-size: 20px;
   text-decoration: underline;
