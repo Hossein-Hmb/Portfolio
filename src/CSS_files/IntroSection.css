@@ -1,117 +1,53 @@
-/* Intro Section CSS */
-.Intro {
-  position: relative;
+.hero {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  font-size: 55px;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-family: "Montserrat", "sans-serif";
-  overflow: hidden;
+  background: #fff; /* Or any other background you'd like */
 }
 
-/* .backgroundGradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #e3e3e3, #ffffff);
-  z-index: -1;
-} */
-
-.image {
-  width: max-content;
-  margin-bottom: 1em;
+.hero-text {
+  width: 50%;
+  padding: 20px;
+}
+.hero-text h1 {
+  font-size: 48px; /* Adjust as needed */
+  margin-bottom: 20px;
 }
 
-.hosseinImg {
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-  transition: all 0.5s ease-in-out;
+.hero-text p {
+  font-size: 24px; /* Adjust as needed */
+  line-height: 1.6;
+  width: 50%;
+  font: Inter, sans-serif;
 }
 
-.hosseinImg:hover {
-  transform: scale(1.1);
-}
-
-.textBtn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: max-content;
-}
-
-.text .name {
-  color: #0469ff;
+.highlight {
+  color: #000; /* Your highlight color */
   font-weight: bold;
 }
 
-.text .role {
-  color: #0469ff;
-}
-
-.text .location {
-  color: #333;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  gap: 0.5em;
-}
-
-.socialBtn,
-.resumeBtn {
-  background-color: white;
-  border-radius: 10px;
-  border: 2px solid #0469ff;
-  height: 50px;
-  width: 100px;
-  font-size: 20px;
+.contact-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  font-size: 18px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
-.socialBtn:hover,
-.resumeBtn:hover {
-  background-color: #0469ff;
-  color: white;
+.contact-button:hover {
+  background-color: #333; /* Darker on hover */
 }
 
-@media only screen and (max-width: 600px) {
-  .Intro {
-    font-size: 30px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3em;
-  }
+.hero-code {
+  background: #010101; /* Light grey background for the code block */
+  width: 50%;
+  height: auto;
+}
 
-  .hosseinImg {
-    width: 250px;
-    height: 250px;
-  }
-
-  .resumeBtn {
-    width: 80px;
-    height: 40px;
-    font-size: 18px;
-  }
-
-  .text {
-    text-align: center;
-  }
-
-  .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.hero-code img {
+  max-width: 100%;
+  height: auto; /* Makes sure the image is responsive */
 }

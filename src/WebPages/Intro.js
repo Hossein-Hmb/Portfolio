@@ -1,24 +1,21 @@
-import h_img from "../images/profile-pic.png";
+import code from "../images/code.png";
+import React from "react";
+import "../CSS_files/IntroSection.css"; // Make sure to create a corresponding CSS file
 
 const Intro = () => {
-  function openLink(link) {
-    window.open(link, "_blank");
-  }
-
   return (
-    <div className="sectionAnim Intro">
-      <div className="backgroundGradient"></div>
-      <div className="textBtn">
-        <div className="text">
-          <span className="introHome">
-            Hi, <span className="name">I'm Hossein.</span> <br />
-            I'm a <span className="role">software engineer</span> <br />
-            student in <span className="location">Ottawa.</span>
-          </span>
-        </div>
+    <div className="hero">
+      <div className="hero-text">
+        <h1>Hello World!</h1>
+        <p>
+          I'm <span className="highlight">Hossein</span>, designing interactive
+          web experiences that connect businesses with their{" "}
+          <span className="highlight">audience</span>.
+        </p>
+        <button className="contact-button">Contact Me</button>
       </div>
-      <div className="image">
-        <img src={h_img} alt="Hossein's img" className="hosseinImg" />
+      <div className="hero-code">
+        <img src={code} alt="Code Snippet" />
       </div>
     </div>
   );

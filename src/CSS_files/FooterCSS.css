@@ -3,13 +3,13 @@
   justify-content: space-between; /* Ensures maximum space between h1 and footer-links */
   align-items: center; /* Vertically centers the content */
   padding: 1.5em 5%; /* Padding on the sides for breathing space */
-  background-color: #333;
-  color: white;
+  background-color: #e9e4e4;
+  color: rgb(0, 0, 0);
   position: relative; /* To position footer-links absolutely relative to footer */
 }
 
 .footer-h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
   margin: 0 auto; /* Auto margin on left and right to center the h1 */
